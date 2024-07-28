@@ -1,0 +1,11 @@
+# filter fields: id
+# recursive: optional field. If enabled, it will update all hubs.
+# data fields: trunkX_circuit_id(trunk CIRCUIT_ID), vlan_id(int(1-4094), optional), recursive(bool optional field. If enabled, it will update all hubs.)
+- operation: update
+  type: l3vpn
+  filter:
+    id: 1
+  data:
+    max_prefixes: 300
+    circuit_id: CCCEVPN123
+    recursive: True

@@ -1,0 +1,8 @@
+- operation: update
+  type: instance
+  filter:
+    name: fna-pae1
+  data:
+    rt_id : 2
+# data fields: name, rt_id
+# filter fields: name, id

@@ -1,0 +1,9 @@
+- operation: create
+  type: node
+  data:
+    site_tag: SITE002
+    name: PE001
+    hwtype_model: ACX
+    nodetype_name: PEVPN
+    ipaddr: 192.168.1.4
+    snmp_community: public

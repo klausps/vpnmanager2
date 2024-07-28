@@ -1,0 +1,9 @@
+# data fields: evpn_id(int) pe_name, site_tag, split_horizon(bool), designated_forwarder(bool), route_targets(optional, str), extended_communities(optional, str)
+- operation: create
+  type: evpnhub
+  data:
+    evpn_id: 1
+    pe_name: PE001
+    site_tag: SITE003
+    split_horizon: False
+    designated_forwarder: False

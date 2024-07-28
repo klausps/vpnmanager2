@@ -1,0 +1,5 @@
+- operation: delete
+  type: trunk
+  filter:
+    circuit_id: PE002
+# filter fields: circuit_id

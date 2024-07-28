@@ -1,0 +1,6 @@
+- operation: create
+  type: bgpgroup
+  data:
+    instance_name: bleh
+    name: bleh-v6
+# data fields: peeras(optional), instance_name, name

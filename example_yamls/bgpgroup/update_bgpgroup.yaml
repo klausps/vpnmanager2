@@ -1,0 +1,10 @@
+- operation: update
+  type: bgpgroup
+  filter:
+    id: 2
+  data:
+    name : fna-v6
+    peeras: 323
+
+# data fields: name, peeras
+# filter fields: name, id

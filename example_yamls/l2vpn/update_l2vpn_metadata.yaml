@@ -1,0 +1,13 @@
+#
+# filter fields: id
+# data fields: metadata(boolean, mandatory), circuit_id(customer CIRCUIT_ID, string, optional), cust_id(string, optional), bw(N[KMG], optional), protected(Boolean, optional)
+- operation: update
+  type: l2vpn
+  filter:
+    id: 3
+  data:
+    circuit_id: CIR555
+    metadata: True
+    cust_id: CUST555
+    bw_bits: 3000000
+    protected: True

@@ -1,0 +1,7 @@
+# data fields: circuit_id, cust_id, max_prefixes(int)
+- operation: create
+  type: l3vpn
+  data:
+    circuit_id: CIRL3666
+    cust_id: CUST L3
+    max_prefixes: 100

@@ -1,0 +1,5 @@
+# filter fields: id
+- operation: delete
+  type: l2vpn
+  filter:
+    id: 2

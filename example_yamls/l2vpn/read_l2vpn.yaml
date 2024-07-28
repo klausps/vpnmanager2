@@ -1,0 +1,6 @@
+# filter fields: id
+- operation: read
+  type: l2vpn
+  tree_view: True
+  filter:
+    id: 3

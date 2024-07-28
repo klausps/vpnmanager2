@@ -1,0 +1,9 @@
+- operation: update
+  type: trunk
+  filter:
+    circuit_id: TRUNK456
+  data:
+    iface: eth3
+    description : TESTE
+# data fields: name, site_tag, hwtype_model
+# filter fields: name, site_tag

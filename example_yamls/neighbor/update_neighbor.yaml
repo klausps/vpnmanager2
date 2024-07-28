@@ -1,0 +1,11 @@
+- operation: update
+  type: neighbor
+  filter:
+    id: 3
+  data:
+    description: fna-v6
+    peeras: 555
+    export_policy: none
+    ipaddr: 4.3.2.1
+# data fields: description, peeras, export_policy, ipaddr
+# filter fields: id

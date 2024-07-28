@@ -1,0 +1,6 @@
+- operation: create
+  type: rt
+  data:
+    description: Meta Route Target - PAE1
+    target: 14840:1201
+# data fields: description, target

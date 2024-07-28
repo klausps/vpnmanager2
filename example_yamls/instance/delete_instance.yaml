@@ -1,0 +1,5 @@
+- operation: delete
+  type: instance
+  filter:
+    name: oca-pae
+# filter fields: description, id

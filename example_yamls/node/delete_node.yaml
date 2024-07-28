@@ -1,0 +1,5 @@
+- operation: delete
+  type: node
+  filter:
+    name: PE002
+    site_tag: SITE002

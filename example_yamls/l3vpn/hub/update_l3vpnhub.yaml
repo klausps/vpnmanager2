@@ -1,0 +1,8 @@
+# filter fields: id
+# data fields: null(mandatory, just fill the gap)
+- operation: update
+  type: l3vpnhub
+  filter:
+    id: 2
+  data:
+    null: True

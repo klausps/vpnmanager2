@@ -1,0 +1,6 @@
+- operation: read
+  type: instance
+  tree_view: True
+  filter:
+    id: 1
+# filter fields: name, id

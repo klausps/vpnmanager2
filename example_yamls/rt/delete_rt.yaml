@@ -1,0 +1,5 @@
+- operation: delete
+  type: rt
+  filter:
+    id: 1
+# filter fields: id

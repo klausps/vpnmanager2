@@ -1,0 +1,10 @@
+#
+# filter fields: id
+# data fields: trunkX_circuit_id(trunk CIRCUIT_ID), vlan_id(int(1-4094), optional)
+- operation: update
+  type: l2vpn
+  filter:
+    id: 3
+  data:
+    trunk1_circuit_id: TRUNK456
+    vlan_id: 555

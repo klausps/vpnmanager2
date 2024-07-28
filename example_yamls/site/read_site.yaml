@@ -1,0 +1,6 @@
+- operation: read
+  type: site
+  tree_view: True
+  filter:
+    tag: PAE1
+#filter fields: any from create

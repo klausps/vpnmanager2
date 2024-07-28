@@ -1,0 +1,17 @@
+# filter fields: circuit_id(str)
+# data fields: l3vpn_id(int), hub_id(int) circuit_id(string), trunk_circuit_id(string), vlan_id(string),
+# inet_prefix(string), inet6_prefix(string), bw_bits(n[KMG]), peer_as(int)
+- operation: update
+  type: l3vpnce
+  filter:
+    circuit_id: CIRL3CE321
+  data:
+    hub_id: 2
+    l3vpn_id: 1
+    circuit_id: CIRL3CE321
+    trunk_circuit_id: TRUNK321
+    vlan_id: 334
+    inet_prefix: 1.2.10.0/30
+    inet6_prefix: 2001:db8:10:1::/64
+    bw_bits: 100000000
+    peer_as: 9993

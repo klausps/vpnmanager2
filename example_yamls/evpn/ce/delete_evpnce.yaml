@@ -1,0 +1,5 @@
+# filter fields: circuit_id
+- operation: delete
+  type: l3vpnce
+  filter:
+    circuit_id: ABC123

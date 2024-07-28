@@ -1,0 +1,7 @@
+- operation: create
+  type: neighbor
+  data:
+    ipaddr: 7.7.7.7
+    bgpgroup_id: 4
+    description: Teste FNA
+# data fields: peeras(optional), export_policy(optional), bgpgroup_id, description

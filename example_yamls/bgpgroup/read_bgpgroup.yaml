@@ -1,0 +1,6 @@
+- operation: read
+  type: bgpgroup
+  tree_view: True
+  filter:
+    name: fna
+# filter fields: name, id

@@ -1,0 +1,8 @@
+# filter fields: id
+# data fields: null(mandatory, just fill the gap)
+- operation: update
+  type: evpnhub
+  filter:
+    id: 2
+  data:
+    null: True

@@ -1,0 +1,6 @@
+- operation: read
+  type: neighbor
+  tree_view: True
+  filter:
+    ipaddr: 1.2.3.4
+# filter fields: name, id

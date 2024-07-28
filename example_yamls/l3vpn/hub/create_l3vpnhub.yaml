@@ -1,0 +1,7 @@
+# data fields: l3vpn_id(int) pe_name, site_tag
+- operation: create
+  type: l3vpnhub
+  data:
+    l3vpn_id: 1
+    pe_name: PE001
+    site_tag: SITE003

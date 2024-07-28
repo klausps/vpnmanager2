@@ -1,0 +1,7 @@
+- operation: read
+  type: node
+  tree_view: True
+  filter:
+    name: CORE01
+    site_tag: PAE1
+# filter fields: name, site_tag

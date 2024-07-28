@@ -1,0 +1,13 @@
+# data fields: trunk1, trunk2, circuit_id, cust_id, bw_bits, sync, protected
+- operation: create
+  type: l2vpn
+  data:
+    trunk1_circuit_id: TRUNK321
+    trunk2_circuit_id: TRUNK123
+    vlan_trunk1: 444
+    vlan_trunk2: 444
+    circuit_id: CIR444
+    cust_id: CUST444
+    bw_bits: 1000000
+    sync: True
+    protected: False

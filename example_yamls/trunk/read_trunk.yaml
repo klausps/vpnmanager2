@@ -1,0 +1,6 @@
+- operation: read
+  type: trunk
+  tree_view: True
+  filter:
+    circuit_id: TRUNK123
+# filter fields: circuit_id(trunk CIRCUIT_ID), site_tag

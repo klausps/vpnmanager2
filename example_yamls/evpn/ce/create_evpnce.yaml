@@ -1,0 +1,14 @@
+# data fields: l3vpn_id(int), hub_id(int) circuit_id(string), trunk_circuit_id(string), vlan_id(string),
+# inet_prefix(string), inet6_prefix(string), bw_bits(n[KMG]), peer_as(int)
+- operation: create
+  type: evpnce
+  data:
+    hub_id: 3
+    l3vpn_id: 1
+    circuit_id: CIRL3CE321
+    trunk_circuit_id: TRUNK888
+    vlan_id: 121
+    inet_prefix: 1.2.8.0/30
+    inet6_prefix: 2001:db8:1:1::/64
+    bw_bits: 1000000
+    peer_as: 2222

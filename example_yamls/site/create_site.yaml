@@ -1,0 +1,12 @@
+- operation: create
+  type: site
+  data:
+    tag: SITE003
+    name: Noname2
+    address: 321
+    city: NewCity3
+    state: NC
+    country: BR
+    zip: 67890
+    latitude: -22.123456
+    longitude: -43.65123

@@ -1,0 +1,9 @@
+- operation: create
+  type: trunk
+  data:
+    circuit_id: TRUNK888
+    pe_name: PE001
+    site_tag: SITE003
+    iface: eth2
+    description: CGR2
+# data fields: circuit_id, iface, pe_name, site_tag, description

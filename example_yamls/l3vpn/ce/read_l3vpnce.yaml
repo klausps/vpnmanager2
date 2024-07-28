@@ -1,0 +1,6 @@
+# filter fields: id or circuit_id
+- operation: read
+  type: l3vpnce
+  tree_view: True
+#  filter:
+#    id: 1

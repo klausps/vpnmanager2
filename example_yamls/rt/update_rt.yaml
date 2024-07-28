@@ -1,0 +1,9 @@
+- operation: update
+  type: rt
+  filter:
+    id: 1
+  data:
+    description : Meta FNA - PAE1
+    target: 14840:1201
+# data fields: description, target
+# filter fields: id

@@ -1,0 +1,5 @@
+- operation: delete
+  type: neighbor
+  filter:
+    name: oca-pae
+# filter fields: description, id

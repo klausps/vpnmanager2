@@ -1,0 +1,5 @@
+- operation: read
+  type: rt
+  filter:
+    id: 1
+# filter fields: id

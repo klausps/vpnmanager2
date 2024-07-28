@@ -1,0 +1,9 @@
+- operation: create
+  type: instance
+  data:
+    type: peering
+    pe_name: CORE01
+    name: bleh
+    site_tag: PAE1
+    rt_description: bleh
+# data fields: rt_description, pe_name, site_tag, type

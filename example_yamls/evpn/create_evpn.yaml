@@ -1,0 +1,7 @@
+# data fields: circuit_id, cust_id, mac_address_table_limit(int)
+- operation: create
+  type: evpn
+  data:
+    circuit_id: CIREV666
+    cust_id: CUST EVPN
+    mac_address_table_limit: 100

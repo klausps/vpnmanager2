@@ -1,0 +1,15 @@
+- operation: update
+  type: site
+  filter:
+    tag: SITE001
+  data:
+    name: Updated Site2
+    address: 7890 Updated Street
+    city: UpdatedCity
+    state: UC
+    country: BR
+    zip: 67890
+    latitude: -22.654321
+    longitude: -43.123456
+#filter fields: any from create
+#data fields: any from create

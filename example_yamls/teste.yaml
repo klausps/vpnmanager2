@@ -1,0 +1,9 @@
+- operation: create
+  type: node
+  data:
+    site_tag: CAV1
+    name: AC1
+    hwtype_model: ACX
+    nodetype_name: PEVPN
+    ipaddr: 201.16.0.37
+    snmp_community: public

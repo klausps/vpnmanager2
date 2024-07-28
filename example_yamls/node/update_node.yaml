@@ -1,0 +1,10 @@
+- operation: update
+  type: node
+  filter:
+    name: PE004
+    site_tag: SITE003
+  data:
+    name: PE001
+    site_tag: SITE001
+# data fields: name, site_tag, hwtype_model
+# filter fields: name, site_tag

@@ -1,0 +1,6 @@
+# filter fields: id
+- operation: read
+  type: evpnhub
+  tree_view: True
+#  filter:
+#    id: 2

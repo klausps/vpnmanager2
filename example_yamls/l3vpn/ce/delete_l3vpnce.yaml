@@ -1,0 +1,5 @@
+# filter fields: circuit_id
+- operation: delete
+  type: l3vpnhub
+  filter:
+    circuit_id: ABC123

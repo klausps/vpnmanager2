@@ -1,0 +1,5 @@
+- operation: delete
+  type: bgpgroup
+  filter:
+    name: bleh-pae
+# filter fields: name, id
